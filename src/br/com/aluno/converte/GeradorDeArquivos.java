@@ -11,7 +11,7 @@ public class GeradorDeArquivos {
 
     public void geraArquivo(List<ConversorDeMoedas> conversores) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        FileWriter escrita = new FileWriter("Conversao.json");
+        FileWriter escrita = new FileWriter("Historico.json");
         escrita.write(gson.toJson(conversores));
         escrita.close();
     }
