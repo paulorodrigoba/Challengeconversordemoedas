@@ -1,0 +1,17 @@
+[
+  {
+    "moedaOrigem": "BRL",
+    "moedaDestino": "AUD",
+    "quantia": 2000.0
+  },
+  {
+    "moedaOrigem": "USD",
+    "moedaDestino": "AUD",
+    "quantia": 1000.0
+  },
+  {
+    "moedaOrigem": "CHF",
+    "moedaDestino": "BRL",
+    "quantia": 1000.0
+  }
+]
